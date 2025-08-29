@@ -1,0 +1,11 @@
+{
+    "name": "متجر-معسلات/shisha-store",
+    "description": "متجر معسلات - Arabic Shisha Store",
+    "type": "project",
+    "require": {
+        "php": ">=7.4"
+    },
+    "scripts": {
+        "start": "php -S 0.0.0.0:8080 -t ."
+    }
+}

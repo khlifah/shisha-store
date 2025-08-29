@@ -1,0 +1,54 @@
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
+
+# Cache files
+cache/
+tmp/
+temp/
+
+# Environment files
+.env
+.env.local
+.env.production
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Compiled files
+*.compiled
+
+# Node modules (if any)
+node_modules/
+
+# Vendor files (if using Composer)
+vendor/
+
+# Upload directories (keep structure but ignore content)
+uploads/*
+!uploads/.gitkeep
+
+# Session files
+sessions/
+
+# Error logs
+error_log
+php_errors.log

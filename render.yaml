@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: متجر-معسلات
+    env: php
+    plan: free
+    buildCommand: ""
+    startCommand: "php -S 0.0.0.0:$PORT -t ."
+    envVars:
+      - key: PHP_VERSION
+        value: "8.0"
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.php

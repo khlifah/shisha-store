@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>الفئات - متجر معسلات</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <nav class="nav">
+      <div class="brand">
+        <!-- شعار المتجر -->
+        <img src="assets/12.png" alt="شعار المتجر" style="height:55px; border-radius:8px;">
+        <a href="index.html" style="font-size:18px; font-weight:800; margin-right:8px;">متجر معسلات</a>
+      </div>
+      <div class="links">
+        <a href="index.html">الرئيسية</a>
+        <a href="category.html?cat=flavors">النكهات</a>
+        <a href="category.html?cat=shisha">شيش</a>
+        <a href="category.html?cat=electronic">شيش الالكترونيه</a>
+        <a href="category.html?cat=charcoal">الفحم</a>
+        <a href="category.html?cat=accessories">الإكسسوارات</a>
+        <a href="category.html?cat=bundles">الباقات</a>
+        <a href="cart.html" class="badge">السلة (0)</a>
+      </div>
+    </nav>
+  </div>
+</header>
+<div class="wrap">
+
+<section class="section">
+  <h2>النكهات</h2>
+  <div class="grid">
+    <div class="card">
+      <div class="prod-top">
+        <img src="صور المنتجات/1.jpg" alt="نكهة التفاح الأخضر">
+        <span class="emoji-fallback">🍏</span>
+      </div>
+      <h4>نكهة التفاح الأخضر</h4>
+      <div class="price">25.00 ر.س</div>
+      <button class="btn" onclick="addToCart(1)">أضف للسلة</button>
+    </div>
+    
+    <div class="card">
+      <div class="prod-top">
+        <img src="صور المنتجات/2.jpg" alt="نكهة العنب">
+        <span class="emoji-fallback">🍇</span>
+      </div>
+      <h4>نكهة العنب</h4>
+      <div class="price">22.50 ر.س</div>
+      <button class="btn" onclick="addToCart(2)">أضف للسلة</button>
+    </div>
+    
+    <div class="card">
+      <div class="prod-top">
+        <img src="صور المنتجات/11.jpeg" alt="نكهة البطيخ">
+        <span class="emoji-fallback">🍉</span>
+      </div>
+      <h4>نكهة البطيخ</h4>
+      <div class="price">24.00 ر.س</div>
+      <button class="btn" onclick="addToCart(3)">أضف للسلة</button>
+    </div>
+    
+    <div class="card">
+      <div class="prod-top">
+        <img src="صور المنتجات/12.jpeg" alt="نكهة النعناع">
+        <span class="emoji-fallback">🌿</span>
+      </div>
+      <h4>نكهة النعناع</h4>
+      <div class="price">20.00 ر.س</div>
+      <button class="btn" onclick="addToCart(4)">أضف للسلة</button>
+    </div>
+    
+    <div class="card">
+      <div class="prod-top">
+        <img src="صور المنتجات/13.jpeg" alt="نكهة الفراولة">
+        <span class="emoji-fallback">🍓</span>
+      </div>
+      <h4>نكهة الفراولة</h4>
+      <div class="price">26.00 ر.س</div>
+      <button class="btn" onclick="addToCart(5)">أضف للسلة</button>
+    </div>
+    
+    <div class="card">
+      <div class="prod-top">
+        <img src="صور المنتجات/14.jpeg" alt="نكهة الليمون">
+        <span class="emoji-fallback">🍋</span>
+      </div>
+      <h4>نكهة الليمون</h4>
+      <div class="price">23.00 ر.س</div>
+      <button class="btn" onclick="addToCart(6)">أضف للسلة</button>
+    </div>
+  </div>
+</section>
+
+</div>
+<footer>
+  <div class="wrap">© 2025 متجر معسلات </div>
+</footer>
+
+<script>
+function addToCart(productId) {
+  alert('تم إضافة المنتج للسلة!');
+  // يمكن إضافة منطق السلة هنا لاحقاً
+}
+</script>
+</body>
+</html>
